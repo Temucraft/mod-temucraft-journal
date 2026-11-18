@@ -1,0 +1,20 @@
+[worldserver]
+
+########################################
+# mod-temucraft-journal
+########################################
+#
+#    Temucraft.Journal.ExportPath
+#        Description: Where .journal export writes the TemucraftJournal addon's data. A relative path is relative
+#                     to the worldserver's folder. Point it straight at the client's
+#                     Interface\AddOns\TemucraftJournal\TemucraftJournal_Data.lua to skip the copy.
+#        Default:     "TemucraftJournal_Data.lua"
+
+Temucraft.Journal.ExportPath = "TemucraftJournal_Data.lua"
+
+#
+#    Temucraft.Journal.MinQuality
+#        Description: Lowest item quality listed as boss loot (0 grey, 1 white, 2 green, 3 blue, 4 epic).
+#        Default:     2
+
+Temucraft.Journal.MinQuality = 2

@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: Temucraft Journal
+## Notes: Dungeon journal: instances, bosses and their loot per difficulty. /journal
+## Author: Temucraft
+## Version: 1.0
+TemucraftJournal_Data.lua
+TemucraftJournal.lua
