@@ -5,7 +5,7 @@
 ########################################
 #
 #    Temucraft.Journal.ExportPath
-#        Description: Where .journal export writes the TemucraftJournal addon's data. A relative path is relative
+#        Description: Where .temucraft journal export writes the TemucraftJournal addon's data. A relative path is relative
 #                     to the worldserver's folder. Point it straight at the client's
 #                     Interface\AddOns\TemucraftJournal\TemucraftJournal_Data.lua to skip the copy.
 #        Default:     "TemucraftJournal_Data.lua"

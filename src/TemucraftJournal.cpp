@@ -2,7 +2,7 @@
  * mod-temucraft-journal: writes the data of the TemucraftJournal client addon (a dungeon journal for 3.3.5) from
  * the server's own data, so custom bosses and loot show up too.
  *
- *   .journal export    writes Temucraft.Journal.ExportPath (TemucraftJournal_Data.lua next to worldserver by
+ *   .temucraft journal export    writes Temucraft.Journal.ExportPath (TemucraftJournal_Data.lua next to worldserver by
  *                      default). Copy it into Interface\AddOns\TemucraftJournal\ of the client (or the client
  *                      patch you ship) and /reload.
  *
@@ -143,7 +143,7 @@ public:
         };
         static ChatCommandTable commandTable =
         {
-            { "journal", journalTable },
+            { "temucraft journal", journalTable },
         };
         return commandTable;
     }
@@ -244,7 +244,7 @@ public:
             handler->PSendSysMessage(TemucraftModuleText("mod-temucraft-journal", handler, 1, "Could not write {}."), path);
             return false;
         }
-        file << "-- TemucraftJournal data, written by the server (.journal export). Do not edit: export again.\n";
+        file << "-- TemucraftJournal data, written by the server (.temucraft journal export). Do not edit: export again.\n";
         file << "TemucraftJournalData = {\n";
         for (auto& [mapId, inst] : instances)
         {

@@ -1,6 +1,6 @@
 --[[
     TemucraftJournal: a dungeon journal for 3.3.5. Instances, their bosses and what each boss drops, per difficulty.
-    The data (TemucraftJournal_Data.lua) is written by the server with .journal export, so custom bosses and loot
+    The data (TemucraftJournal_Data.lua) is written by the server with .temucraft journal export, so custom bosses and loot
     are included. Open with /journal or /dj, or the book on the minimap.
 
     Hover an item for its tooltip, shift-click to link it in chat, ctrl-click to try it on.
@@ -378,7 +378,7 @@ end
 
 emptyText = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 emptyText:SetPoint("CENTER")
-emptyText:SetText("No journal data. On the server: .journal export, then copy\nTemucraftJournal_Data.lua into this addon's folder.")
+emptyText:SetText("No journal data. On the server: .temucraft journal export, then copy\nTemucraftJournal_Data.lua into this addon's folder.")
 emptyText:Hide()
 
 -- Items arrive from the server a moment after they're asked for: redraw while some are still loading

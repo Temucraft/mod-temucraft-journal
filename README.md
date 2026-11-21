@@ -4,7 +4,7 @@ A dungeon journal for 3.3.5: every dungeon and raid, its bosses, and what each b
 journal is a client addon (`client/AddOns/TemucraftJournal`); its data is written by the server, so custom bosses
 and loot are in it.
 
-1. On the server (in game or the console): `.journal export`. It writes [`TemucraftJournal_Data.lua`](https://github.com/Temucraft/mod-temucraft-journal/blob/master/client/AddOns/TemucraftJournal/TemucraftJournal_Data.lua)
+1. On the server (in game or the console): `.temucraft journal export`. It writes [`TemucraftJournal_Data.lua`](https://github.com/Temucraft/mod-temucraft-journal/blob/master/client/AddOns/TemucraftJournal/TemucraftJournal_Data.lua)
    (`Temucraft.Journal.ExportPath`).
 2. Put `client/AddOns/TemucraftJournal` in the client's `Interface\AddOns` (or the client patch you ship) and the
    exported file in that folder, replacing the placeholder.
